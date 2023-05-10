@@ -42,7 +42,7 @@ const handleChange = (e :any)=>{
 
 
              <div className="MeetingsList">
-            {meetings && meetings.map(m=><p key={m.meetingCode}><Card meeting={m}/></p>)}
+            {meetings && meetings.map(m=><Card key={m.meetingCode} meeting={m}/>)}
         </div>
             
         </div>
