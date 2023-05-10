@@ -28,12 +28,12 @@ useEffect(()=>{
     }
     return (
         <div className="AddMeeting">
-			I am Add Meeting!
+			<strong>Add Meeting!</strong>
             <form onSubmit={handleSubmit(send)}>
-                <input type="date" placeholder="startingDateAndTime" {...register("startingDateAndTime")}/><br></br>
-                <input type="date" placeholder="endingDateAndTime" {...register("endingDateAndTime")}/><br></br>
-                <input type="text" placeholder="description" {...register("description")}/><br></br>
-                <input type="text" placeholder="room" {...register("room")}/><br></br>
+                <input type="date" placeholder="startingDateAndTime" required {...register("startingDateAndTime")}/><br></br>
+                <input type="date" placeholder="endingDateAndTime" required {...register("endingDateAndTime")}/><br></br>
+                <input type="text" placeholder="description" required {...register("description")}/><br></br>
+                <input type="text" placeholder="room" required {...register("room")}/><br></br>
                 
                 <select defaultValue="" {...register("devGroupCode")}>
                     <option disabled value={""}>select a category name </option>

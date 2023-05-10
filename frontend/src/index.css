@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url("https://img.freepik.com/free-vector/illustration-brainstorming-teamwork_53876-18397.jpg?size=626&ext=jpg&ga=GA1.2.1103567159.1597658053&semt=sph"); */
+  background-image: url("https://img.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame_1339-6363.jpg?size=626&ext=jpg&ga=GA1.2.1103567159.1597658053&semt=ais");
+  background-size: contain;
   background-color: rgb(148, 148, 247);
 }
 
