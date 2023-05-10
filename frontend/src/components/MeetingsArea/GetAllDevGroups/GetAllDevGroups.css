@@ -1,0 +1,17 @@
+.GetAllDevGroups {
+    
+	text-align: center;
+   
+}
+
+
+
+.GetAllDevGroups select{
+    width: 280px;
+    height: 35px;
+}
+
+.GetAllDevGroups h3{
+margin-top: 50px;
+color: rgb(116, 114, 114);
+}
